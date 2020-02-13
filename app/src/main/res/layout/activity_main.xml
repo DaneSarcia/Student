@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ftxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="48dp"
+        android:text="Name:"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/atxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
+        android:text="Age:"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stxt" />
+
+    <TextView
+        android:id="@+id/txtf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/stxt"
+        app:layout_constraintTop_toBottomOf="@+id/txtf" />
+
+    <TextView
+        android:id="@+id/itxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="ID Number:"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/atxt" />
+
+    <TextView
+        android:id="@+id/stxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="28dp"
+        android:text="Sex:"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ftxt" />
+
+    <TextView
+        android:id="@+id/txtf4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/atxt"
+        app:layout_constraintTop_toBottomOf="@+id/txtf3" />
+
+    <TextView
+        android:id="@+id/txtf3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/stxt"
+        app:layout_constraintTop_toBottomOf="@+id/txtf2" />
+
+    <TextView
+        android:id="@+id/txtf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/ftxt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
